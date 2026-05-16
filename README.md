@@ -1,5 +1,7 @@
 # InkMessageBoard
 
+> Note: this is a personal learning prototype shared for discussion and improvement. It is not a mature commercial product and does not guarantee production-level stability.
+
 An ESP32-S3 + e-paper + MQTT + Android App message board prototype.
 
 This is a learning/reference project, not a polished product. The main message flow works: the Android app publishes a message through MQTT, the ESP32-S3 receives it, and the e-paper display refreshes with the new content.
@@ -7,6 +9,12 @@ This is a learning/reference project, not a polished product. The main message f
 The repository is shared for study, discussion, and further improvement. Chinese documentation is the primary documentation: [README.zh-CN.md](README.zh-CN.md).
 
 ![Device](docs/images/cover.jpg)
+
+## Flow Diagrams
+
+![Topic data flow](docs/images/system_arch.png)
+
+![Message and status flow](docs/images/mqtt_flow.png)
 
 ## Contents
 
@@ -31,4 +39,4 @@ Real Wi-Fi and MQTT credentials are not included. The example configuration uses
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+Software, documentation, media assets, and hardware design files are released under the MIT License unless otherwise noted. See [LICENSE](LICENSE).

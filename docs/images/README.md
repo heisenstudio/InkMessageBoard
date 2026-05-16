@@ -13,6 +13,8 @@
 | `app_screenshot.jpg` | Android App 留言页截图 |
 | `pcb_front.png` | ESP32-S3 主控板正面图 |
 | `pcb_back.png` | ESP32-S3 主控板背面图 |
+| `system_arch.png` | 三条 Topic 总体数据流 |
+| `mqtt_flow.png` | 留言发送与状态回执流程 |
 | `device_test_2.jpg` | 调试照片 |
 | `device_test_3.jpg` | 调试照片 |
 

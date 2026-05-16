@@ -13,13 +13,13 @@
 - [x] Add Gerber zip files for AD boards
 - [x] Add BOM exports for AD boards
 - [x] Add PickAndPlace exports for AD boards
-- [ ] Confirm final software license
-- [ ] Confirm final hardware license
+- [x] Confirm final software license
+- [x] Confirm final hardware license
 - [ ] Test the documented firmware build steps from a clean checkout
 - [ ] Test the documented Android build steps from a clean checkout
 - [ ] Record a short demo video
-- [ ] Redraw system architecture diagram
-- [ ] Redraw MQTT flow diagram
+- [x] Redraw system architecture diagram
+- [x] Redraw MQTT flow diagram
 - [ ] Add more assembly photos
 
 ## Firmware

@@ -1,10 +1,18 @@
 # InkMessageBoard 墨水屏留言板
 
+> 说明：这是一个个人学习和交流用的原型项目，欢迎参考、讨论和继续改进；它不是成熟商业产品，也不保证商用稳定性。
+
 这是一个 **ESP32-S3 + 墨水屏 + MQTT + Android App 的留言板原型项目**。
 
 这个仓库主要是学习记录和交流资料，不是成熟产品，也不保证拿来就能稳定量产。它目前的价值更像是：把一个已经跑通核心流程的 IoT 小作品完整分享出来，方便后来的人参考、复现、改进，或者作为嵌入式/Android/开源硬件作品集的一个例子。
 
 ![设备实物](docs/images/cover.jpg)
+
+## 系统流程图
+
+![三条 Topic 总体数据流](docs/images/system_arch.png)
+
+![留言发送与状态回执流程](docs/images/mqtt_flow.png)
 
 ## 现在能跑通的流程
 
@@ -86,6 +94,6 @@ InkMessageBoard/
 
 ## 许可证
 
-当前仓库默认使用 MIT License，见 [LICENSE](LICENSE)。
+当前仓库的软件代码、文档、图片资料和硬件设计文件默认都使用 MIT License，见 [LICENSE](LICENSE)。
 
-硬件部分目前也按学习交流方式开放出来。如果你希望更严格地声明开源硬件权利，可以后续把 `hardware/` 单独改用 CERN-OHL 等开源硬件许可证。
+硬件部分同样按 MIT License 开放，方便大家学习、修改、制造和继续完善。打板和使用前请自行核对原理图、PCB、BOM 和装配方式。

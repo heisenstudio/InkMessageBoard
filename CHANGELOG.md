@@ -13,4 +13,7 @@ All notable changes to this project will be documented in this file.
 - Removed generated build caches and local machine files from firmware and Android projects.
 - Replaced real MQTT connection values with public placeholders.
 - Added software overview, hardware overview, build docs, MQTT protocol, and known issues.
+- Added system/MQTT flow diagrams to README and docs.
+- Clarified that hardware design files are also released under the MIT License.
+- Added a clearer prototype disclaimer to README files.
 - Added MIT License placeholder for the repository.
