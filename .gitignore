@@ -1,0 +1,36 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Firmware
+firmware/esp32/.pio/
+firmware/esp32/.pioenvs/
+firmware/esp32/.piolibdeps/
+firmware/esp32/.vscode/
+firmware/esp32/src/config.h
+firmware/esp32/include/config.h
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/.idea/
+android/build/
+android/dist/
+android/local.properties
+android/**/build/
+android/captures/
+android/**/*.apk
+android/**/*.aab
+android/**/*.jks
+android/**/*.keystore
+
+# Large/generated media
+media/*.mp4
+media/*.mov
+media/*.psd

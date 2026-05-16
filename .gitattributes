@@ -1,0 +1,12 @@
+# Treat hardware and media exports as binary so Git does not try to diff them.
+*.PcbDoc binary
+*.SchDoc binary
+*.epro2 binary
+*.xlsx binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.mp4 binary
+

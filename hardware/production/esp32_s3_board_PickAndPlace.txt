@@ -1,0 +1,67 @@
+Altium Designer Pick and Place Locations
+Pick Place for esp32-s3.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       01-07-24
+Time:       15:41
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment           Layer    Footprint         Center-X(mil) Center-Y(mil) Rotation Description                  
+JP10       HDR-1X3           TopLayer HDR2.54-LI-3P     1885.000      2955.000      180      3P接插件                        
+JP9        HDR-1X5           TopLayer HDR2.54-LI-5P     1415.000      2680.000      90       5P接插件                        
+JP8        HDR-1X4           TopLayer HDR2.54-LI-4P     2295.000      3160.000      90       4P接插件                        
+JP4        HDR-1X3           TopLayer HDR2.54-LI-3P     1805.000      3505.000      180      3P接插件                        
+JP3        HDR-1X3           TopLayer HDR2.54-LI-3P     1730.000      2785.000      180      3P接插件                        
+IC2        LM358             TopLayer SOP8_N            2120.000      3180.000      90       双路运放                         
+SW1        3*4*2.5           TopLayer SW-SMD-4.2x3.2_4P 2285.000      2240.000      90       "贴片4脚轻触开关 C2690012"          
+R16        10K               TopLayer R0603_L           2170.000      2283.543      90       贴片电阻                         
+R15        470R              TopLayer R0603_L           1435.003      2337.670      180      贴片电阻                         
+R14        10K               TopLayer R0603_L           2170.000      2168.543      270      贴片电阻                         
+R13        10K               TopLayer R0603_L           2270.000      1870.000      180      贴片电阻                         
+R12        470R              TopLayer R0603_L           1435.003      2225.000      180      贴片电阻                         
+LED2       红色                TopLayer LED0603_R         1435.003      2390.001      180      贴片LED                        
+LED1       红色                TopLayer LED0603_R         1435.003      2277.332      180      贴片LED                        
+C13        1uf               TopLayer C0603_L           2270.000      1820.000      180      贴片电容/MLCC电容                  
+X1         40Mhz             TopLayer XTAL-3225-4P      1685.000      1575.000      135      4脚无源晶振(谐振器）C5203551          
+USBC1      "TYPE-C 2.0 -16P" TopLayer USB-C-SMD_16P     2152.552      2592.166      270      USB2.0_Type-C_16Pin母座        
+U1         ESP32-S3          TopLayer QFN56_7x7         1905.000      1810.000      135      "2.4 GHz Wi-Fi + 低功耗蓝牙 SoC"  
+SW2        3*4*2.5           TopLayer SW-SMD-4.2x3.2_4P 2285.000      2010.000      90       "贴片4脚轻触开关 C2690012"          
+R11        0R                TopLayer R0402_L           1970.000      1435.000      270      贴片电阻                         
+R10        0R                TopLayer R0402_L           1970.000      1546.732      270      贴片电阻                         
+R9         0R                TopLayer R0402_L           1975.000      2026.732      270      贴片电阻                         
+R8         0R                TopLayer R0402_L           1710.000      1985.000      135      贴片电阻                         
+R7         0R                TopLayer R0402_L           2015.436      2026.764      270      贴片电阻                         
+R6         0R                TopLayer R0402_L           1685.000      1960.000      135      贴片电阻                         
+R5         499R              TopLayer R0603_L           1665.000      1740.000      315      贴片电阻                         
+R4         0R                TopLayer R0402_L           1785.000      2060.000      315      贴片电阻                         
+R3         0R                TopLayer R0402_L           1735.000      2010.000      135      贴片电阻                         
+R2         0R                TopLayer R0402_L           1810.000      2085.000      315      贴片电阻                         
+R1         0R                TopLayer R0402_L           1760.000      2035.000      135      贴片电阻                         
+Q2         SS8050            TopLayer SOT23-3N          2060.000      2145.000      90       高频放大-NPN型                    
+Q1         SS8050            TopLayer SOT23-3N          2060.000      2285.000      90       高频放大-NPN型                    
+L3         3nh               TopLayer L0402             1987.238      1490.097      180      贴片小功率电感                      
+L2         24nh              TopLayer L0402             1800.000      1615.000      45       "贴片小功率电感 C74301"             
+L1         2nh               TopLayer L0402             2090.000      1615.000      180      "贴片小功率电感 C18216"             
+JP7        HDR-1X4           TopLayer HDR2.54-LI-4P     1615.000      3175.000      90       4P接插件                        
+JP6        HDR-1X4           TopLayer HDR2.54-LI-4P     1515.000      3175.000      270      4P接插件                        
+JP5        HDR-1X4           TopLayer HDR2.54-LI-4P     1415.000      3175.000      90       4P接插件                        
+JP2        HDR-1X6           TopLayer HDR2.54-LI-6P     1410.000      1890.000      270      6P接插件                        
+JP1        HDR-1X4           TopLayer HDR2.54-LI-4P     1855.000      3615.000      0        4P接插件                        
+IC1        W25Q64            TopLayer SOP8W_L           1715.000      2353.346      270      "SPI Flash C83140"           
+C12        24pf              TopLayer C0603_L           1605.000      1650.000      225      "贴片电容/MLCC电容 C1654"          
+C11        24pf              TopLayer C0603_L           1765.000      1495.000      45       "贴片电容/MLCC电容 C1654"          
+C10        10nf              TopLayer C0603_L           1873.543      1510.000      180      贴片电容/MLCC电容                  
+C9         1uf               TopLayer C0603_L           1873.543      1565.000      180      贴片电容/MLCC电容                  
+C8         100nf             TopLayer C0603_L           2090.000      1965.000      225      贴片电容/MLCC电容                  
+C7         100nf             TopLayer C0603_L           1855.000      2233.543      270      贴片电容/MLCC电容                  
+C6         1uf               TopLayer C0603_L           1880.000      2150.000      180      贴片电容/MLCC电容                  
+C5         100nf             TopLayer C0603_L           1620.000      1825.000      0        贴片电容/MLCC电容                  
+C4         100nf             TopLayer C0402_L           2037.527      1647.527      225      贴片电容/MLCC电容                  
+C3         100nf             TopLayer C0402_L           2146.532      1633.403      270      贴片电容/MLCC电容                  
+C2         1uf               TopLayer C0603_L           2197.274      1643.597      270      贴片电容/MLCC电容                  
+C1         10uf              TopLayer C0603_L           2257.517      1643.134      270      贴片电容/MLCC电容                  
+ANT1       "CrossAir CA-C03" TopLayer crossair_ca-co3   1867.638      1290.000      0        "2450±50MHz 4.3DBi 50欧 功率3W" 
