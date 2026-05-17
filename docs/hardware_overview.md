@@ -43,7 +43,29 @@ hardware/
 
 ![设备正面](images/device_front.jpg)
 
-![PCB 正面](images/pcb_front.png)
+![设备侧面](images/device_side.jpg)
+
+![墨水屏显示](images/epaper_display.jpg)
+
+## PCB 图片
+
+### ESP32-S3 主控板
+
+| 正面 | 背面 |
+| --- | --- |
+| ![ESP32-S3 主控板正面](../hardware/pcb/esp32_s3_board_front.png) | ![ESP32-S3 主控板背面](../hardware/pcb/esp32_s3_board_back.png) |
+
+### 电源板
+
+| 正面 | 背面 |
+| --- | --- |
+| ![电源板正面](../hardware/pcb/power_board_front.png) | ![电源板背面](../hardware/pcb/power_board_back.png) |
+
+### 2.66 寸墨水屏板
+
+| 正面 | 背面 |
+| --- | --- |
+| ![墨水屏板正面](../hardware/pcb/ink_board_front.png) | ![墨水屏板背面](../hardware/pcb/ink_board_back.png) |
 
 ## 注意事项
 

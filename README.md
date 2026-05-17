@@ -8,6 +8,16 @@
 
 ![设备实物](docs/images/cover.jpg)
 
+## 项目图片
+
+| 实物正面 | 墨水屏显示 |
+| --- | --- |
+| ![设备正面](docs/images/device_front.jpg) | ![墨水屏显示](docs/images/epaper_display.jpg) |
+
+| Android App 主页面 | Android App 辅助页面 |
+| --- | --- |
+| ![Android App 主页面](docs/images/app_screenshot.jpg) | ![Android App 辅助页面](docs/images/app_screenshot_secondary.jpg) |
+
 ## 系统流程图
 
 ![三条 Topic 总体数据流](docs/images/system_arch.png)
