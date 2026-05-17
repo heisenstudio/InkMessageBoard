@@ -22,7 +22,7 @@ App 发布到 `ink/001/msg_to_esp32`：
 {
   "id": "phone-1778844537408",
   "type": "guestbook",
-  "text": "今晚早点休息",
+  "text": "请查看设备状态",
   "ts": 1778844537
 }
 ```
@@ -84,7 +84,7 @@ ESP32 收到、显示或按键回复后，也发布到 `ink/001/status_to_phone`
 {
   "msg_id": "phone-1778844537408",
   "state": "seen",
-  "text": "收到啦"
+  "text": "已收到"
 }
 ```
 
@@ -94,10 +94,10 @@ ESP32 收到、显示或按键回复后，也发布到 `ink/001/status_to_phone`
 | --- | --- |
 | `accepted` | ESP32 已接收消息 |
 | `displayed` | ESP32 已刷新到墨水屏 |
-| `seen` | 左短按回复 |
-| `miss_you` | 右短按回复 |
-| `later` | 左长按回复 |
-| `love_you` | 右长按回复 |
+| `seen` | 左短按回复，表示已收到 |
+| `confirm` | 右短按回复，表示需要确认 |
+| `later` | 左长按回复，表示稍后处理 |
+| `done` | 右长按回复，表示已处理 |
 
 ## 注意
 

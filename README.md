@@ -10,13 +10,9 @@
 
 ## 项目图片
 
-| 实物正面 | 墨水屏显示 |
+| 实物正面 | 设备侧面 |
 | --- | --- |
-| ![设备正面](docs/images/device_front.jpg) | ![墨水屏显示](docs/images/epaper_display.jpg) |
-
-| Android App 主页面 | Android App 辅助页面 |
-| --- | --- |
-| ![Android App 主页面](docs/images/app_screenshot.jpg) | ![Android App 辅助页面](docs/images/app_screenshot_secondary.jpg) |
+| ![设备正面](docs/images/device_front.jpg) | ![设备侧面](docs/images/device_side.jpg) |
 
 ## 系统流程图
 

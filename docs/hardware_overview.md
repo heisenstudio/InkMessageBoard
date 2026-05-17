@@ -45,8 +45,6 @@ hardware/
 
 ![设备侧面](images/device_side.jpg)
 
-![墨水屏显示](images/epaper_display.jpg)
-
 ## PCB 图片
 
 ### ESP32-S3 主控板

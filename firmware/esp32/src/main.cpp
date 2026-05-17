@@ -351,7 +351,7 @@ void drawReplyHints()
 {
   const int16_t y = BspEpaper::height() - 20;
   BspEpaper::drawFastHLine(6, y - 7, BspEpaper::width() - 12, GxEPD_BLACK);
-  drawUtf8Text(kHzk16, "左短 收到啦  右短 想你", 10, y, BspEpaper::width() - 8, BspEpaper::height() - 2);
+  drawUtf8Text(kHzk16, "左短 已收到  右短 待确认", 10, y, BspEpaper::width() - 8, BspEpaper::height() - 2);
 }
 
 void drawMessagePage()
@@ -615,19 +615,19 @@ void handleKeyEvent(const KeyService::KeyEvent &event)
 {
   if (event.key == KeyService::KeyId::Left && event.action == KeyService::KeyAction::ShortPress)
   {
-    publishReply("seen", "收到啦");
+    publishReply("seen", "已收到");
   }
   else if (event.key == KeyService::KeyId::Right && event.action == KeyService::KeyAction::ShortPress)
   {
-    publishReply("miss_you", "想你");
+    publishReply("confirm", "需要确认");
   }
   else if (event.key == KeyService::KeyId::Left && event.action == KeyService::KeyAction::LongPress)
   {
-    publishReply("later", "嘬嘬");
+    publishReply("later", "稍后处理");
   }
   else if (event.key == KeyService::KeyId::Right && event.action == KeyService::KeyAction::LongPress)
   {
-    publishReply("love_you", "爱你");
+    publishReply("done", "已处理");
   }
 }
 

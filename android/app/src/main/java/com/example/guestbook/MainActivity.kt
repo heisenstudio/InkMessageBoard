@@ -152,7 +152,7 @@ private fun Header(controller: GuestbookController) {
 @Composable
 @OptIn(ExperimentalLayoutApi::class)
 private fun MessagePage(controller: GuestbookController) {
-    val quickTexts = listOf("收到啦", "今天也想你", "晚点回你", "记得喝水", "我到家啦")
+    val quickTexts = listOf("测试留言", "请查看设备状态", "稍后处理", "需要确认", "已完成")
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
@@ -177,7 +177,7 @@ private fun MessagePage(controller: GuestbookController) {
                         .fillMaxWidth()
                         .heightIn(min = 128.dp),
                     label = { Text("写给墨水屏的话") },
-                    placeholder = { Text("例如：今晚早点休息，我晚点回你。") },
+                    placeholder = { Text("例如：请查看设备状态。") },
                     minLines = 4,
                     maxLines = 8,
                 )
@@ -575,10 +575,10 @@ private fun stateLabel(state: String): String {
         "sent" -> "已发送"
         "accepted" -> "已接收"
         "displayed" -> "已显示"
-        "seen" -> "收到啦"
-        "miss_you" -> "想你"
-        "later" -> "晚点回"
-        "love_you" -> "爱你"
+        "seen" -> "已收到"
+        "confirm" -> "待确认"
+        "later" -> "稍后处理"
+        "done" -> "已处理"
         else -> state
     }
 }
