@@ -9,6 +9,7 @@
 | `cover.jpg` | 项目封面图 |
 | `device_front.jpg` | 设备实物正面 |
 | `device_side.jpg` | 设备侧面 |
+| `app_cover.jpg` | Android App 展示图 |
 | `pcb_front.png` | ESP32-S3 主控板正面图 |
 | `pcb_back.png` | ESP32-S3 主控板背面图 |
 | `system_arch.png` | 三条 Topic 总体数据流 |
